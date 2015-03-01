@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88982B3C896B10645E9C96AE /* libPods-hackconnect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA739DDC1D470D1049346D4E /* libPods-hackconnect.a */; };
+		CC44F05C1AA3232D00F3C7B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC44F05B1AA3232D00F3C7B4 /* Images.xcassets */; };
+		CC44F0601AA3378500F3C7B4 /* DEMOThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC44F05F1AA3378500F3C7B4 /* DEMOThirdViewController.m */; };
+		CC4C1D741AA27D8F00399390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1D731AA27D8F00399390 /* main.m */; };
+		CC4C1D771AA27D8F00399390 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1D761AA27D8F00399390 /* AppDelegate.m */; };
+		CC4C1D7A1AA27D8F00399390 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1D791AA27D8F00399390 /* ViewController.m */; };
+		CC4C1D7D1AA27D8F00399390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4C1D7B1AA27D8F00399390 /* Main.storyboard */; };
+		CC4C1D821AA27D8F00399390 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4C1D801AA27D8F00399390 /* LaunchScreen.xib */; };
+		CC4C1D8E1AA27D8F00399390 /* hackconnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1D8D1AA27D8F00399390 /* hackconnectTests.m */; };
+		CC4C1DA11AA2876800399390 /* DEMOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1D981AA2876800399390 /* DEMOFirstViewController.m */; };
+		CC4C1DA21AA2876800399390 /* DEMOLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1D9A1AA2876800399390 /* DEMOLeftMenuViewController.m */; };
+		CC4C1DA31AA2876800399390 /* DEMORightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1D9C1AA2876800399390 /* DEMORightMenuViewController.m */; };
+		CC4C1DA41AA2876800399390 /* DEMORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1D9E1AA2876800399390 /* DEMORootViewController.m */; };
+		CC4C1DA51AA2876800399390 /* DEMOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1DA01AA2876800399390 /* DEMOSecondViewController.m */; };
+		CC4C1DAC1AA2BE4800399390 /* DEMOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1DAB1AA2BE4800399390 /* DEMOViewController.m */; };
+		CC4C1DB01AA3061100399390 /* FINDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1DAF1AA3061100399390 /* FINDViewController.m */; };
+		CC4C1DB71AA3074D00399390 /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1DB21AA3074D00399390 /* DraggableViewBackground.m */; };
+		CC4C1DB81AA3074D00399390 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1DB41AA3074D00399390 /* DraggableView.m */; };
+		CC4C1DB91AA3074D00399390 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C1DB61AA3074D00399390 /* OverlayView.m */; };
+		CC4C1DBE1AA3134400399390 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4C1DBD1AA3134400399390 /* UIKit.framework */; };
+		CC4C1DC01AA3134900399390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4C1DBF1AA3134900399390 /* Foundation.framework */; };
+		CC4C1DC21AA3134F00399390 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4C1DC11AA3134F00399390 /* CoreGraphics.framework */; };
+		CCC4A7381AA3628C001E971D /* DEMOFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC4A7371AA3628C001E971D /* DEMOFourthViewController.m */; };
+		CCC4A73B1AA36E7B001E971D /* CHATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC4A73A1AA36E7B001E971D /* CHATViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC4C1D881AA27D8F00399390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4C1D661AA27D8F00399390 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4C1D6D1AA27D8F00399390;
+			remoteInfo = hackconnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EC088ECBC8CA7EADF6F395 /* Pods-hackconnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackconnect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hackconnect/Pods-hackconnect.debug.xcconfig"; sourceTree = "<group>"; };
+		CC44F05B1AA3232D00F3C7B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC44F05E1AA3378500F3C7B4 /* DEMOThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOThirdViewController.h; sourceTree = "<group>"; };
+		CC44F05F1AA3378500F3C7B4 /* DEMOThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOThirdViewController.m; sourceTree = "<group>"; };
+		CC4C1D6E1AA27D8F00399390 /* hackconnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackconnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4C1D721AA27D8F00399390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4C1D731AA27D8F00399390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC4C1D751AA27D8F00399390 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC4C1D761AA27D8F00399390 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC4C1D781AA27D8F00399390 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC4C1D791AA27D8F00399390 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC4C1D7C1AA27D8F00399390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC4C1D811AA27D8F00399390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CC4C1D871AA27D8F00399390 /* hackconnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackconnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4C1D8C1AA27D8F00399390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4C1D8D1AA27D8F00399390 /* hackconnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hackconnectTests.m; sourceTree = "<group>"; };
+		CC4C1D971AA2876800399390 /* DEMOFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEMOFirstViewController.h; path = "../../../Downloads/RESideMenu-master-4/Examples/Storyboards/RESideMenuStoryboardsExample/DEMOFirstViewController.h"; sourceTree = "<group>"; };
+		CC4C1D981AA2876800399390 /* DEMOFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEMOFirstViewController.m; path = "../../../Downloads/RESideMenu-master-4/Examples/Storyboards/RESideMenuStoryboardsExample/DEMOFirstViewController.m"; sourceTree = "<group>"; };
+		CC4C1D991AA2876800399390 /* DEMOLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEMOLeftMenuViewController.h; path = "../../../Downloads/RESideMenu-master-4/Examples/Storyboards/RESideMenuStoryboardsExample/DEMOLeftMenuViewController.h"; sourceTree = "<group>"; };
+		CC4C1D9A1AA2876800399390 /* DEMOLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEMOLeftMenuViewController.m; path = "../../../Downloads/RESideMenu-master-4/Examples/Storyboards/RESideMenuStoryboardsExample/DEMOLeftMenuViewController.m"; sourceTree = "<group>"; };
+		CC4C1D9B1AA2876800399390 /* DEMORightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEMORightMenuViewController.h; path = "../../../Downloads/RESideMenu-master-4/Examples/Storyboards/RESideMenuStoryboardsExample/DEMORightMenuViewController.h"; sourceTree = "<group>"; };
+		CC4C1D9C1AA2876800399390 /* DEMORightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEMORightMenuViewController.m; path = "../../../Downloads/RESideMenu-master-4/Examples/Storyboards/RESideMenuStoryboardsExample/DEMORightMenuViewController.m"; sourceTree = "<group>"; };
+		CC4C1D9D1AA2876800399390 /* DEMORootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEMORootViewController.h; path = "../../../Downloads/RESideMenu-master-4/Examples/Storyboards/RESideMenuStoryboardsExample/DEMORootViewController.h"; sourceTree = "<group>"; };
+		CC4C1D9E1AA2876800399390 /* DEMORootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEMORootViewController.m; path = "../../../Downloads/RESideMenu-master-4/Examples/Storyboards/RESideMenuStoryboardsExample/DEMORootViewController.m"; sourceTree = "<group>"; };
+		CC4C1D9F1AA2876800399390 /* DEMOSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEMOSecondViewController.h; path = "../../../Downloads/RESideMenu-master-4/Examples/Storyboards/RESideMenuStoryboardsExample/DEMOSecondViewController.h"; sourceTree = "<group>"; };
+		CC4C1DA01AA2876800399390 /* DEMOSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEMOSecondViewController.m; path = "../../../Downloads/RESideMenu-master-4/Examples/Storyboards/RESideMenuStoryboardsExample/DEMOSecondViewController.m"; sourceTree = "<group>"; };
+		CC4C1DAA1AA2BE4800399390 /* DEMOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOViewController.h; sourceTree = "<group>"; };
+		CC4C1DAB1AA2BE4800399390 /* DEMOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOViewController.m; sourceTree = "<group>"; };
+		CC4C1DAE1AA3061100399390 /* FINDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FINDViewController.h; sourceTree = "<group>"; };
+		CC4C1DAF1AA3061100399390 /* FINDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FINDViewController.m; sourceTree = "<group>"; };
+		CC4C1DB11AA3074D00399390 /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DraggableViewBackground.h; path = "../../../Downloads/TinderSimpleSwipeCards-master/testing swiping/DraggableViewBackground.h"; sourceTree = "<group>"; };
+		CC4C1DB21AA3074D00399390 /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DraggableViewBackground.m; path = "../../../Downloads/TinderSimpleSwipeCards-master/testing swiping/DraggableViewBackground.m"; sourceTree = "<group>"; };
+		CC4C1DB31AA3074D00399390 /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DraggableView.h; path = "../../../Downloads/TinderSimpleSwipeCards-master/testing swiping/DraggableView.h"; sourceTree = "<group>"; };
+		CC4C1DB41AA3074D00399390 /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DraggableView.m; path = "../../../Downloads/TinderSimpleSwipeCards-master/testing swiping/DraggableView.m"; sourceTree = "<group>"; };
+		CC4C1DB51AA3074D00399390 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayView.h; path = "../../../Downloads/TinderSimpleSwipeCards-master/testing swiping/OverlayView.h"; sourceTree = "<group>"; };
+		CC4C1DB61AA3074D00399390 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OverlayView.m; path = "../../../Downloads/TinderSimpleSwipeCards-master/testing swiping/OverlayView.m"; sourceTree = "<group>"; };
+		CC4C1DBD1AA3134400399390 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC4C1DBF1AA3134900399390 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC4C1DC11AA3134F00399390 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCC4A7361AA3628C001E971D /* DEMOFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOFourthViewController.h; sourceTree = "<group>"; };
+		CCC4A7371AA3628C001E971D /* DEMOFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOFourthViewController.m; sourceTree = "<group>"; };
+		CCC4A7391AA36E7B001E971D /* CHATViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHATViewController.h; sourceTree = "<group>"; };
+		CCC4A73A1AA36E7B001E971D /* CHATViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHATViewController.m; sourceTree = "<group>"; };
+		D11696259C53588E36CCFE1B /* Pods-hackconnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackconnect.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackconnect/Pods-hackconnect.release.xcconfig"; sourceTree = "<group>"; };
+		DA739DDC1D470D1049346D4E /* libPods-hackconnect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hackconnect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4C1D6B1AA27D8F00399390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C1DC21AA3134F00399390 /* CoreGraphics.framework in Frameworks */,
+				CC4C1DC01AA3134900399390 /* Foundation.framework in Frameworks */,
+				CC4C1DBE1AA3134400399390 /* UIKit.framework in Frameworks */,
+				88982B3C896B10645E9C96AE /* libPods-hackconnect.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C1D841AA27D8F00399390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E680EBCE01F677E18446CC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00EC088ECBC8CA7EADF6F395 /* Pods-hackconnect.debug.xcconfig */,
+				D11696259C53588E36CCFE1B /* Pods-hackconnect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC4C1D651AA27D8F00399390 = {
+			isa = PBXGroup;
+			children = (
+				CC4C1D701AA27D8F00399390 /* hackconnect */,
+				CC4C1D8A1AA27D8F00399390 /* hackconnectTests */,
+				CC4C1D6F1AA27D8F00399390 /* Products */,
+				2E680EBCE01F677E18446CC2 /* Pods */,
+				F6398EBDE01331AEB32AC8FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4C1D6F1AA27D8F00399390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C1D6E1AA27D8F00399390 /* hackconnect.app */,
+				CC4C1D871AA27D8F00399390 /* hackconnectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4C1D701AA27D8F00399390 /* hackconnect */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C1D751AA27D8F00399390 /* AppDelegate.h */,
+				CC4C1D761AA27D8F00399390 /* AppDelegate.m */,
+				CC4C1D781AA27D8F00399390 /* ViewController.h */,
+				CC4C1D791AA27D8F00399390 /* ViewController.m */,
+				CC4C1D971AA2876800399390 /* DEMOFirstViewController.h */,
+				CC4C1D981AA2876800399390 /* DEMOFirstViewController.m */,
+				CC4C1D991AA2876800399390 /* DEMOLeftMenuViewController.h */,
+				CC4C1D9A1AA2876800399390 /* DEMOLeftMenuViewController.m */,
+				CC4C1D9B1AA2876800399390 /* DEMORightMenuViewController.h */,
+				CC4C1D9C1AA2876800399390 /* DEMORightMenuViewController.m */,
+				CC4C1D9D1AA2876800399390 /* DEMORootViewController.h */,
+				CC4C1D9E1AA2876800399390 /* DEMORootViewController.m */,
+				CC4C1D9F1AA2876800399390 /* DEMOSecondViewController.h */,
+				CC4C1D7B1AA27D8F00399390 /* Main.storyboard */,
+				CCC4A7391AA36E7B001E971D /* CHATViewController.h */,
+				CCC4A73A1AA36E7B001E971D /* CHATViewController.m */,
+				CCC4A7361AA3628C001E971D /* DEMOFourthViewController.h */,
+				CCC4A7371AA3628C001E971D /* DEMOFourthViewController.m */,
+				CC4C1DA01AA2876800399390 /* DEMOSecondViewController.m */,
+				CC44F05E1AA3378500F3C7B4 /* DEMOThirdViewController.h */,
+				CC44F05F1AA3378500F3C7B4 /* DEMOThirdViewController.m */,
+				CC4C1DAE1AA3061100399390 /* FINDViewController.h */,
+				CC4C1DAF1AA3061100399390 /* FINDViewController.m */,
+				CC4C1DB11AA3074D00399390 /* DraggableViewBackground.h */,
+				CC4C1DB21AA3074D00399390 /* DraggableViewBackground.m */,
+				CC4C1DB31AA3074D00399390 /* DraggableView.h */,
+				CC4C1DB41AA3074D00399390 /* DraggableView.m */,
+				CC4C1DB51AA3074D00399390 /* OverlayView.h */,
+				CC4C1DB61AA3074D00399390 /* OverlayView.m */,
+				CC44F05B1AA3232D00F3C7B4 /* Images.xcassets */,
+				CC4C1DAA1AA2BE4800399390 /* DEMOViewController.h */,
+				CC4C1DAB1AA2BE4800399390 /* DEMOViewController.m */,
+				CC4C1D801AA27D8F00399390 /* LaunchScreen.xib */,
+				CC4C1D711AA27D8F00399390 /* Supporting Files */,
+			);
+			path = hackconnect;
+			sourceTree = "<group>";
+		};
+		CC4C1D711AA27D8F00399390 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C1D721AA27D8F00399390 /* Info.plist */,
+				CC4C1D731AA27D8F00399390 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC4C1D8A1AA27D8F00399390 /* hackconnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C1D8D1AA27D8F00399390 /* hackconnectTests.m */,
+				CC4C1D8B1AA27D8F00399390 /* Supporting Files */,
+			);
+			path = hackconnectTests;
+			sourceTree = "<group>";
+		};
+		CC4C1D8B1AA27D8F00399390 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C1D8C1AA27D8F00399390 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6398EBDE01331AEB32AC8FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C1DC11AA3134F00399390 /* CoreGraphics.framework */,
+				CC4C1DBF1AA3134900399390 /* Foundation.framework */,
+				CC4C1DBD1AA3134400399390 /* UIKit.framework */,
+				DA739DDC1D470D1049346D4E /* libPods-hackconnect.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4C1D6D1AA27D8F00399390 /* hackconnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4C1D911AA27D8F00399390 /* Build configuration list for PBXNativeTarget "hackconnect" */;
+			buildPhases = (
+				04F57DBC5BEDFDF96BE88BD4 /* Check Pods Manifest.lock */,
+				CC4C1D6A1AA27D8F00399390 /* Sources */,
+				CC4C1D6B1AA27D8F00399390 /* Frameworks */,
+				CC4C1D6C1AA27D8F00399390 /* Resources */,
+				CEF9907F5BA2870B1F0B8269 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hackconnect;
+			productName = hackconnect;
+			productReference = CC4C1D6E1AA27D8F00399390 /* hackconnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC4C1D861AA27D8F00399390 /* hackconnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4C1D941AA27D8F00399390 /* Build configuration list for PBXNativeTarget "hackconnectTests" */;
+			buildPhases = (
+				CC4C1D831AA27D8F00399390 /* Sources */,
+				CC4C1D841AA27D8F00399390 /* Frameworks */,
+				CC4C1D851AA27D8F00399390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4C1D891AA27D8F00399390 /* PBXTargetDependency */,
+			);
+			name = hackconnectTests;
+			productName = hackconnectTests;
+			productReference = CC4C1D871AA27D8F00399390 /* hackconnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4C1D661AA27D8F00399390 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Adil  Virani";
+				TargetAttributes = {
+					CC4C1D6D1AA27D8F00399390 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CC4C1D861AA27D8F00399390 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CC4C1D6D1AA27D8F00399390;
+					};
+				};
+			};
+			buildConfigurationList = CC4C1D691AA27D8F00399390 /* Build configuration list for PBXProject "hackconnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC4C1D651AA27D8F00399390;
+			productRefGroup = CC4C1D6F1AA27D8F00399390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4C1D6D1AA27D8F00399390 /* hackconnect */,
+				CC4C1D861AA27D8F00399390 /* hackconnectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4C1D6C1AA27D8F00399390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC44F05C1AA3232D00F3C7B4 /* Images.xcassets in Resources */,
+				CC4C1D7D1AA27D8F00399390 /* Main.storyboard in Resources */,
+				CC4C1D821AA27D8F00399390 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C1D851AA27D8F00399390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04F57DBC5BEDFDF96BE88BD4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF9907F5BA2870B1F0B8269 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackconnect/Pods-hackconnect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4C1D6A1AA27D8F00399390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C1DA21AA2876800399390 /* DEMOLeftMenuViewController.m in Sources */,
+				CC44F0601AA3378500F3C7B4 /* DEMOThirdViewController.m in Sources */,
+				CC4C1DA11AA2876800399390 /* DEMOFirstViewController.m in Sources */,
+				CC4C1D7A1AA27D8F00399390 /* ViewController.m in Sources */,
+				CC4C1D771AA27D8F00399390 /* AppDelegate.m in Sources */,
+				CC4C1D741AA27D8F00399390 /* main.m in Sources */,
+				CC4C1DA51AA2876800399390 /* DEMOSecondViewController.m in Sources */,
+				CC4C1DB91AA3074D00399390 /* OverlayView.m in Sources */,
+				CC4C1DB81AA3074D00399390 /* DraggableView.m in Sources */,
+				CC4C1DA41AA2876800399390 /* DEMORootViewController.m in Sources */,
+				CC4C1DB01AA3061100399390 /* FINDViewController.m in Sources */,
+				CC4C1DAC1AA2BE4800399390 /* DEMOViewController.m in Sources */,
+				CCC4A7381AA3628C001E971D /* DEMOFourthViewController.m in Sources */,
+				CC4C1DB71AA3074D00399390 /* DraggableViewBackground.m in Sources */,
+				CCC4A73B1AA36E7B001E971D /* CHATViewController.m in Sources */,
+				CC4C1DA31AA2876800399390 /* DEMORightMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C1D831AA27D8F00399390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C1D8E1AA27D8F00399390 /* hackconnectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC4C1D891AA27D8F00399390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4C1D6D1AA27D8F00399390 /* hackconnect */;
+			targetProxy = CC4C1D881AA27D8F00399390 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC4C1D7B1AA27D8F00399390 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4C1D7C1AA27D8F00399390 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC4C1D801AA27D8F00399390 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4C1D811AA27D8F00399390 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4C1D8F1AA27D8F00399390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC4C1D901AA27D8F00399390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4C1D921AA27D8F00399390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00EC088ECBC8CA7EADF6F395 /* Pods-hackconnect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hackconnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC4C1D931AA27D8F00399390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11696259C53588E36CCFE1B /* Pods-hackconnect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hackconnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC4C1D951AA27D8F00399390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hackconnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackconnect.app/hackconnect";
+			};
+			name = Debug;
+		};
+		CC4C1D961AA27D8F00399390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hackconnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackconnect.app/hackconnect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4C1D691AA27D8F00399390 /* Build configuration list for PBXProject "hackconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C1D8F1AA27D8F00399390 /* Debug */,
+				CC4C1D901AA27D8F00399390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4C1D911AA27D8F00399390 /* Build configuration list for PBXNativeTarget "hackconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C1D921AA27D8F00399390 /* Debug */,
+				CC4C1D931AA27D8F00399390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4C1D941AA27D8F00399390 /* Build configuration list for PBXNativeTarget "hackconnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C1D951AA27D8F00399390 /* Debug */,
+				CC4C1D961AA27D8F00399390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4C1D661AA27D8F00399390 /* Project object */;
+}
